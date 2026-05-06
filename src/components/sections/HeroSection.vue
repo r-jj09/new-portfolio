@@ -1,8 +1,8 @@
 <script setup>
   import { ref, watch, onMounted, onUnmounted } from 'vue'
-  import { useLang } from '../../composables/useLang'
-  import profileImg from 'src/assets/profile.webp'
-  import profileSm from 'src/assets/profile-sm.webp'
+  import { useLang } from '@/composables/useLang.js'
+  import profileImg from '@/assets/profile.webp'
+  import profileSm from '@/assets/profile-sm.webp'
 
   const { messages } = useLang()
 
@@ -77,7 +77,7 @@
           <div class="code-line">
             <span class="code-key">  status</span>
             <span class="code-plain">: </span>
-            <span class="code-green">"available"</span>
+            <span class="code-green">"working hard"</span>
           </div>
 
           <div class="code-line">

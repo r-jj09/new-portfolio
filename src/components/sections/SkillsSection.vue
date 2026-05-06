@@ -1,8 +1,8 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import { useLang } from '../../composables/useLang'
+import { useLang } from '@/composables/useLang.js'
 import SectionHeader from '../ui/SectionHeader.vue'
-import { skills } from '../../data/skills.js'
+import { skills } from '@/data/skills.js'
 
 const { messages } = useLang()
 

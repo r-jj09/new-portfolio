@@ -1,5 +1,5 @@
 <script setup>
-  import { useLang } from '../../composables/useLang'
+  import { useLang } from '@/composables/useLang.js'
 
   const { messages } = useLang()
 

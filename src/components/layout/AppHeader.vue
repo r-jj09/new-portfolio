@@ -1,6 +1,6 @@
 <script setup >
 import { ref, onMounted, onUnmounted } from 'vue'
-import { useLang } from '../../composables/useLang'
+import { useLang } from '@/composables/useLang.js'
 const { lang, messages, setLang } = useLang()
 
 const navLinks = [
