@@ -1,6 +1,8 @@
 <script setup>
   import { ref, watch, onMounted, onUnmounted } from 'vue'
   import { useLang } from '../../composables/useLang'
+  import profileImg from 'src/assets/profile.webp'
+  import profileSm from 'src/assets/profile-sm.webp'
 
   const { messages } = useLang()
 
@@ -107,7 +109,7 @@
           <div class="card-image p-2">
             <img
                 :src="profileImg"
-                srcset="/src/assets/profile-sm.webp 400w, /src/assets/profile.webp 800w"
+                :srcset="`${profileSm} 400w, ${profileImg} 800w`"
                 sizes="(max-width: 640px) 100vw, 326px"
                 alt="Hajdú Réka"
             />
