@@ -5,7 +5,7 @@
 
 </script>
 <template>
-    <section class="contact" id="contact"0>
+    <section class="contact" id="contact">
       <div class="contact-content">
         <p class="contact-echo">
           <span class="echo-cmd">$ echo </span>

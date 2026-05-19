@@ -27,7 +27,7 @@ export default {
             { label: 'CURRENTLY', title: 'HM Zrínyi', sub: 'Web Developer' },
             { label: 'GRADUATED', title: '2024', sub: 'John von Neumann University' },
             { label: 'FOCUS', title: 'Frontend', sub: '+ creative UI' },
-            { label: 'LEARNING', title: 'Mobile / UX', sub: 'next up' },
+            { label: 'LEARNING', title: 'UX / UI and Figma', sub: 'next up' },
         ],
         sectionTitle: "about",
         sectionComment: "",

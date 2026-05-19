@@ -27,7 +27,7 @@ export default {
             { label: 'JELENLEG', title: 'HM Zrínyi', sub: 'Webfejlesztő' },
             { label: 'VÉGZETT', title: '2024', sub: 'Neumann János Egyetem' },
             { label: 'FÓKUSZ', title: 'Frontend', sub: '+ kreatív UI' },
-            { label: 'TANUL', title: 'Mobile / UX', sub: 'következő szint' },
+            { label: 'TANUL', title: 'UX / UI és Figma', sub: 'következő szint' },
         ],
         sectionTitle: "rólam",
         sectionComment: "",
