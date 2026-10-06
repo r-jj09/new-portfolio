@@ -99,7 +99,7 @@ export default {
         links: [
             { label: 'github', url: 'https://github.com/r-jj09' },
             { label: 'linkedin', url: 'https://www.linkedin.com/in/rekahajdu1109/' },
-            { label: 'cv.pdf', url: '/src/assets/HajdúRékaCV(HUN).pdf' },
+            { label: 'cv.pdf', url: '/hajdu-reka-cv-hun.pdf' },
         ],
     },
 }

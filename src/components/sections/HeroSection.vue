@@ -95,7 +95,7 @@
 
         <div class="hero-buttons">
           <a href="#work" class="btn-primary">{{ messages.hero.viewProjects }}</a>
-          <a href="/src/assets/HajdúRékaCV(HUN).pdf" download class="btn-secondary">{{ messages.hero.downloadCv }}</a>
+          <a href="/hajdu-reka-cv-hun.pdf" download class="btn-secondary">{{ messages.hero.downloadCv }}</a>
         </div>
       </div>
 
