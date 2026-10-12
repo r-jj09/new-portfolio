@@ -12,4 +12,13 @@ export default defineConfig({
     server: {
         host: true
     },
+    build: {
+        rollupOptions: {
+            input: {
+                main: path.resolve(__dirname, 'index.html'),
+                // Served by Vercel with a 404 status for unmatched paths
+                notFound: path.resolve(__dirname, '404.html'),
+            },
+        },
+    },
 })

@@ -93,6 +93,14 @@ export default {
         ],
     },
 
+    notFound: {
+        error: 'Nincs ilyen fájl vagy könyvtár',
+        comment: '# Ez az oldal nem létezik, vagy máshová került.',
+        home: 'cd ~',
+        privacy: './adatvedelem',
+        title: 'Az oldal nem található',
+    },
+
     footer: {
         privacy: 'adatvédelem',
         cookies: 'süti beállítások',

@@ -93,6 +93,14 @@ export default {
         ],
     },
 
+    notFound: {
+        error: 'No such file or directory',
+        comment: "# This page doesn't exist or has moved.",
+        home: 'cd ~',
+        privacy: './privacy',
+        title: 'Page not found',
+    },
+
     footer: {
         privacy: 'privacy',
         cookies: 'cookie settings',
