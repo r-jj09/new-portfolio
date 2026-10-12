@@ -83,7 +83,7 @@ onUnmounted(() => observer?.disconnect())
 
 <style scoped>
 nav {
-  font-family: "JetBrains Mono", monospace;
+  font-family: var(--font-mono);
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
   padding: 0 24px;

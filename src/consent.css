@@ -1,0 +1,61 @@
+#cc-main {
+    --cc-font-family: var(--font-mono);
+    --cc-modal-border-radius: 8px;
+    --cc-btn-border-radius: 6px;
+
+    --cc-bg: var(--color-surface);
+    --cc-primary-color: var(--color-text);
+    --cc-secondary-color: var(--color-muted);
+    --cc-link-color: var(--text-green);
+    --cc-overlay-bg: rgba(0, 0, 0, 0.7);
+
+    --cc-btn-primary-bg: #1c2027;
+    --cc-btn-primary-color: var(--text-green);
+    --cc-btn-primary-border-color: var(--color-border);
+    --cc-btn-primary-hover-bg: #1c2027;
+    --cc-btn-primary-hover-color: var(--text-green);
+    --cc-btn-primary-hover-border-color: var(--text-green);
+
+    --cc-btn-secondary-bg: #1c2027;
+    --cc-btn-secondary-color: var(--text-green);
+    --cc-btn-secondary-border-color: var(--color-border);
+    --cc-btn-secondary-hover-bg: #1c2027;
+    --cc-btn-secondary-hover-color: var(--text-green);
+    --cc-btn-secondary-hover-border-color: var(--text-green);
+
+    --cc-separator-border-color: var(--color-border);
+
+    --cc-toggle-on-bg: var(--text-green);
+    --cc-toggle-off-bg: var(--color-border);
+    --cc-toggle-on-knob-bg: var(--color-bg);
+    --cc-toggle-off-knob-bg: var(--color-muted);
+    --cc-toggle-enabled-icon-color: var(--color-bg);
+    --cc-toggle-disabled-icon-color: var(--color-surface);
+    --cc-toggle-readonly-bg: #2f4a39;
+    --cc-toggle-readonly-knob-bg: var(--color-muted);
+    --cc-toggle-readonly-knob-icon-color: #2f4a39;
+
+    --cc-section-category-border: var(--color-border);
+    --cc-cookie-category-block-bg: var(--color-bg);
+    --cc-cookie-category-block-border: var(--color-border);
+    --cc-cookie-category-block-hover-bg: #1c2027;
+    --cc-cookie-category-block-hover-border: var(--color-border);
+    --cc-cookie-category-expanded-block-bg: var(--color-bg);
+    --cc-cookie-category-expanded-block-hover-bg: #1c2027;
+
+    --cc-footer-bg: var(--color-bg);
+    --cc-footer-color: var(--color-muted);
+    --cc-footer-border-color: var(--color-border);
+
+    --cc-webkit-scrollbar-bg: var(--color-border);
+    --cc-webkit-scrollbar-hover-bg: var(--text-green);
+}
+
+#cc-main .cm,
+#cc-main .pm {
+    border: 1px solid var(--color-border);
+}
+
+#cc-main .cm__title {
+    color: var(--text-green);
+}

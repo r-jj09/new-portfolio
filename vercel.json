@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/privacy", "destination": "/index.html" },
+    { "source": "/adatvedelem", "destination": "/index.html" }
+  ]
+}

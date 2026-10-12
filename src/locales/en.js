@@ -93,9 +93,14 @@ export default {
         ],
     },
 
+    footer: {
+        privacy: 'privacy',
+        cookies: 'cookie settings',
+    },
+
     contact: {
         echo: 'Open to new opportunities',
-        email: 'hajdu.reka.009@email.com',
+        email: 'hajdu.reka.009@gmail.com',
         links: [
             { label: 'github', url: 'https://github.com/r-jj09' },
             { label: 'linkedin', url: 'https://www.linkedin.com/in/rekahajdu1109/' },
